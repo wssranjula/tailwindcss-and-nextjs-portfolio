@@ -6,28 +6,38 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Tech Tonic Landing page",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "TechTonic is a AI Automation Agency that provides Automation using powerful LLM Models.",
+    image: "/p111.png",
+    github: "https://github.com/wssranjula/landing-page-next",
+    link: "",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    name: "CSV Agent",
+    description: "CSV Agent is a Autonomous Agents that can query and answer complex question using Langchain Agents powered by GPT 3.5-Turbo. Frond End with Streamlit",
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "https://github.com/wssranjula/CSV_Agent",
+    link: "",
   },
   {
-    name: "Kator Family Photos",
+    name: "RAG Agent with PineCone",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+      "RAG Agent That retrieve Agents from Pinecone and answer complex question using Langchain Agents powered by GPT 3.5-Turbo. Frond End with Streamlit",
+   
     image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "https://github.com/wssranjula/Flowise",
+    link: "",
   },
+  {
+    name: "Research Agent",
+    description:
+      "Research Agent That surf web gather information and create a research with Resource URLS.",
+   
+    image: "/p2.png",
+    github: "https://github.com/wssranjula/Research-Agent",
+    link: "",
+  }
 ]
 
 const ProjectsSection = () => {

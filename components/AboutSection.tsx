@@ -2,17 +2,18 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "Generative AI" },
+  { skill: "Machine Learning" },
+  { skill: "LLM Fine Tuning" },
+  { skill: "LLM Pre- Training" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
+  { skill: "Solidity" },
+  { skill: "Javascript" },
+  { skill: "" },
+  { skill: "Flowise " },
+  { skill: "Langchain" },
+  { skill: "Langflow" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
 ]
 
 const AboutSection = () => {
@@ -30,22 +31,22 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Ranjula and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Sri Lanka.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I graduated from SriLanka Institute of Information Technology(SLIIT) University in 2019
+              with a BSc Special Honours in Information System Engineering and have been working in the
               field ever since.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From reading, playing Games, traveling, to making AI stuff,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
@@ -76,11 +77,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/ae.jpg"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-0 md:left-40 md:z-0 bg-gradient-to-br bg-right-bottom"
             />
           </div>
         </div>
